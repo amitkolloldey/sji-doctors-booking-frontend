@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAppointments } from '../redux/appoinments/appointmentsSlice';
-import Swal from 'sweetalert2';
 
 const PatientAppointmentsPage = () => {
     const dispatch = useDispatch();

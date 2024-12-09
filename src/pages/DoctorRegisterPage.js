@@ -44,6 +44,7 @@ const DoctorRegisterPage = () => {
                 name,
                 email,
                 password,
+                password_confirmation: confirmPassword,
                 specialization,
             });
 
@@ -186,7 +187,7 @@ const DoctorRegisterPage = () => {
                                     Login here
                                 </Link>
                             </p>
-                        </form> 
+                        </form>
 
                         <button
                             onClick={() => navigate('/patient/login')}

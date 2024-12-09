@@ -37,7 +37,8 @@ const PatientRegisterPage = () => {
                 name,
                 email,
                 password,
-                phone_no: phoneNo
+                password_confirmation: confirmPassword,
+                phone_no: phoneNo,
             });
 
             Swal.fire({
